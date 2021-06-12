@@ -23,7 +23,7 @@ for a=0 to h/2 step 5
 	line image1,(0,a*2)-(www,a*2),0,b	
 next
 for a=0 to h/2 step 10
-	line image1,(0,a*2)-(ww,a*2),0,b	
+	line image1,(0,a*2)-(w,a*2),0,b	
 next
 
 
