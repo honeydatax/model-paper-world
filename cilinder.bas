@@ -1,4 +1,4 @@
-const paper=rgb(128,0,128)
+const paper=5
 const pi=3.1415927
 dim w as integer
 dim h as integer
@@ -19,7 +19,7 @@ d=hh*pi
 h=int(d)
 print "border?"
 input b
-screenres 640,480,16
+screenres 640,480,4
 bb=b*2
 bbb=bb*2
 dim as any ptr image1=imagecreate(w+bb+1,h+b+1,paper)
