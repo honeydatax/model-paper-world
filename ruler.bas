@@ -1,4 +1,4 @@
-const paper=rgb(128,0,128)
+const paper=5
 dim w as integer
 dim ww as integer
 dim www as integer
@@ -13,7 +13,7 @@ ww=20
 www=30
 print "H?"
 input h
-screenres 640,480,16
+screenres 640,480,4
 dim as any ptr image1=imagecreate(w+1,h+1,paper)
 line image1,(0,0)-(w,h),0,b
 for a=0 to h/2
